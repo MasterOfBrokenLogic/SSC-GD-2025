@@ -1,0 +1,110 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 30px;
+    font-size: 1rem;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    padding-bottom: 8px;
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+    color: #000; /* Black color for the links */
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    color: #d1d4c9; /* Light grayish green color on hover */
+    transform: scale(1.05);
+}
+
+/* List Styles */
+ol {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 50px;
+}
+
+/* Section Header Styling */
+h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: 0;
+    border-top: 2px solid #d1d4c9;
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    ol {
+        padding-left: 15px;
+    }
+    li {
+        font-size: 1.1rem;
+    }
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-top: 40px;
+}
